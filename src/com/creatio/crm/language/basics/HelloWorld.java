@@ -1,6 +1,7 @@
 package com.creatio.crm.language.basics;
 
-import java.util.logging.logger;
+import java.util.logging.Logger;
+
 public class HelloWorld {
 
 	public static void main(String[] args) {
@@ -29,7 +30,7 @@ public class HelloWorld {
 		System.err.println("Error while converting ASCII to normal char");
 		
 		//Print informational message along with time stamp
-		Logger.getlogger("Mylogger").info("Error while converting ASCII to normal char");
+		//Logger.getlogger("Mylogger").info("Error while converting ASCII to normal char");
 	}
 
 }
